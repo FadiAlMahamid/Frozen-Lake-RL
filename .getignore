@@ -1,0 +1,10 @@
+# Ignore python binaries and cache
+__pycache__/
+*.py[cod]
+
+# Ignore model weights and training history
+results/*.npy
+results/*.npz
+
+# But keep the plots and heatmaps for GitHub display
+!results/*.png

@@ -154,7 +154,7 @@ def main():
     print(f"Using Gymnasium version: {gym.__version__}")
 
     # --- 1. Set Device (Hardware Parity) ---
-    # Q-learning is CPU-bound (NumPy), but we keep the structure for Mac/Intel/GPU checks.
+    # Q-learning is CPU-bound (NumPy)
     device = "cpu"
     print(f"Using device: {device}")
 

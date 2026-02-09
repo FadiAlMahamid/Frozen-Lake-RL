@@ -179,6 +179,7 @@ def main():
     print(f"Using Gymnasium version: {gym.__version__}")
 
     # --- 1. Set Device (Hardware Parity) ---
+    # SARSA is CPU-bound (NumPy)
     device = "cpu"
     print(f"Using device: {device}")
 
